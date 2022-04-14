@@ -46,10 +46,4 @@ class ViewController: UIViewController {
         
        
     //}
-<<<<<<< Updated upstream
-=======
-    
-    
-    
->>>>>>> Stashed changes
 }
