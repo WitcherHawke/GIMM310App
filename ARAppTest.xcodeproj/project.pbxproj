@@ -39,6 +39,7 @@
 		54C756D727FF5927002BB543 = {
 			isa = PBXGroup;
 			children = (
+				EB7755C42808C7A600347EFC /* Assets */,
 				54C756E227FF5927002BB543 /* ARAppTest */,
 				54C756E127FF5927002BB543 /* Products */,
 			);
@@ -63,6 +64,13 @@
 				54C756EE27FF5927002BB543 /* LaunchScreen.storyboard */,
 			);
 			path = ARAppTest;
+			sourceTree = "<group>";
+		};
+		EB7755C42808C7A600347EFC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
