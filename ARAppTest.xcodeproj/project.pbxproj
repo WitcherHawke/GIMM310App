@@ -7,19 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		54176FA02808C8A3008798CF /* Group 16.png in Resources */ = {isa = PBXBuildFile; fileRef = 54176F9F2808C8A3008798CF /* Group 16.png */; };
-		54176FA22808C8AB008798CF /* Group 21.png in Resources */ = {isa = PBXBuildFile; fileRef = 54176FA12808C8AB008798CF /* Group 21.png */; };
 		54C756E427FF5927002BB543 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C756E327FF5927002BB543 /* AppDelegate.swift */; };
 		54C756E627FF5927002BB543 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C756E527FF5927002BB543 /* ViewController.swift */; };
 		54C756E827FF5927002BB543 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 54C756E727FF5927002BB543 /* Experience.rcproject */; };
 		54C756EB27FF5927002BB543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C756E927FF5927002BB543 /* Main.storyboard */; };
 		54C756ED27FF5927002BB543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54C756EC27FF5927002BB543 /* Assets.xcassets */; };
 		54C756F027FF5927002BB543 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C756EE27FF5927002BB543 /* LaunchScreen.storyboard */; };
+		EB7755C72808C97C00347EFC /* info_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EB7755C52808C97C00347EFC /* info_icon.png */; };
+		EB7755C82808C97C00347EFC /* jimapp_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EB7755C62808C97C00347EFC /* jimapp_logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		54176F9F2808C8A3008798CF /* Group 16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 16.png"; sourceTree = "<group>"; };
-		54176FA12808C8AB008798CF /* Group 21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 21.png"; sourceTree = "<group>"; };
 		54C756E027FF5927002BB543 /* ARAppTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARAppTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C756E327FF5927002BB543 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54C756E527FF5927002BB543 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,6 +25,8 @@
 		54C756EA27FF5927002BB543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54C756EC27FF5927002BB543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54C756EF27FF5927002BB543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB7755C52808C97C00347EFC /* info_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_icon.png; sourceTree = "<group>"; };
+		EB7755C62808C97C00347EFC /* jimapp_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jimapp_logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +73,8 @@
 		EB7755C42808C7A600347EFC /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				54176FA12808C8AB008798CF /* Group 21.png */,
-				54176F9F2808C8A3008798CF /* Group 16.png */,
+				EB7755C52808C97C00347EFC /* info_icon.png */,
+				EB7755C62808C97C00347EFC /* jimapp_logo.png */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -137,11 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB7755C82808C97C00347EFC /* jimapp_logo.png in Resources */,
 				54C756F027FF5927002BB543 /* LaunchScreen.storyboard in Resources */,
 				54C756ED27FF5927002BB543 /* Assets.xcassets in Resources */,
-				54176FA22808C8AB008798CF /* Group 21.png in Resources */,
 				54C756EB27FF5927002BB543 /* Main.storyboard in Resources */,
-				54176FA02808C8A3008798CF /* Group 16.png in Resources */,
+				EB7755C72808C97C00347EFC /* info_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
