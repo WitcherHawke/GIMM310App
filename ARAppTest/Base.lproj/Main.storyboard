@@ -32,6 +32,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="audio_icon" translatesAutoresizingMaskIntoConstraints="NO" id="UON-Zp-ykN">
+                                <rect key="frame" x="35" y="154" width="100" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="info_icon" translatesAutoresizingMaskIntoConstraints="NO" id="3uP-KL-UYL">
+                                <rect key="frame" x="35" y="294" width="100" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="play_icon" translatesAutoresizingMaskIntoConstraints="NO" id="M1h-PY-q6C">
+                                <rect key="frame" x="35" y="438" width="100" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3Bw-AZ-3pT"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -68,7 +83,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OUs-JU-Op1">
+<<<<<<< HEAD
                                 <rect key="frame" x="147" y="498" width="120" height="31"/>
+=======
+                                <rect key="frame" x="147" y="361" width="120" height="31"/>
+>>>>>>> 15ca31214c4e2848e8fc8586f0212b6c6a91a609
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Start Scanning"/>
@@ -85,14 +104,23 @@
                                     <segue destination="jFj-h2-Kfu" kind="show" identifier="tutorialSegue" id="Jq7-qJ-fuf"/>
                                 </connections>
                             </button>
+<<<<<<< HEAD
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jimapp_logo" translatesAutoresizingMaskIntoConstraints="NO" id="v44-6K-zBN">
                                 <rect key="frame" x="62" y="72" width="291" height="137"/>
+=======
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jimapp_logo" translatesAutoresizingMaskIntoConstraints="NO" id="v44-6K-zBN">
+                                <rect key="frame" x="75" y="44" width="240" height="178"/>
+>>>>>>> 15ca31214c4e2848e8fc8586f0212b6c6a91a609
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5A0-Kf-Eet"/>
+<<<<<<< HEAD
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+=======
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+>>>>>>> 15ca31214c4e2848e8fc8586f0212b6c6a91a609
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jK6-yq-Ald" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -101,13 +129,21 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="g3r-3k-Cn4"/>
+        <segue reference="yJQ-ze-rWQ"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" systemColor="opaqueSeparatorColor"/>
     <resources>
+        <image name="audio_icon" width="53" height="45"/>
+        <image name="info_icon" width="67" height="67"/>
         <image name="jimapp_logo" width="267" height="92"/>
+<<<<<<< HEAD
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+=======
+        <image name="play_icon" width="49" height="49"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+>>>>>>> 15ca31214c4e2848e8fc8586f0212b6c6a91a609
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

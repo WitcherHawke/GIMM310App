@@ -41,10 +41,4 @@ class ViewController: UIViewController {
     //class ARImageAnchor: ARAnchor{
         
     //}
-    
-    
-    
-    
-    }
-    
-
+}
