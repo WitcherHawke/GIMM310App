@@ -39,6 +39,17 @@ class ViewController: UIViewController {
     }
     
     //class ARImageAnchor: ARAnchor{
+        //guard; let referenceImage = ARReferenceImage.referenceImages(inGroupNamed: , bundle: nil); else {
+            
+            //let configuration = ARWorldTrackingConfiguration()
+        //}
         
+       
     //}
+<<<<<<< Updated upstream
+=======
+    
+    
+    
+>>>>>>> Stashed changes
 }
