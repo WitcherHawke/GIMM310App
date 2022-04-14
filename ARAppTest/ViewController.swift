@@ -7,10 +7,16 @@
 
 import UIKit
 import RealityKit
+import ARKit
+
 
 class ViewController: UIViewController {
     
     @IBOutlet var arView: ARView!
+    
+    //var referenceImage: ARReferenceImage
+    
+    
     
     
     override func viewDidLoad() {
@@ -22,6 +28,10 @@ class ViewController: UIViewController {
         // Add the box anchor to the scene
         arView.scene.anchors.append(boxAnchor)
     }
+    
+    //class ARImageAnchor: ARAnchor{
+        
+    //}
     
    
     
