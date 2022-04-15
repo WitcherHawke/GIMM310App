@@ -7,6 +7,8 @@
 
 import UIKit
 import RealityKit
+import SwiftUI
+import ARKit
 
 class ViewController: UIViewController {
     
@@ -15,10 +17,29 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //var body: some View {
+           // ZStack {
+             //   LinearGradient(gradient: Gradient(colors: [
+                
+             //       Color.blue
+             //       Color.green
+             //       Color.yellow
+             //       Color.red
+                
+                //]),
+               // startPoint: <#T##UnitPoint#>
+              //  )
+            //}
+       // }
+        
+        
+        
         // Load the "Box" scene from the "Experience" Reality File
         let boxAnchor = try! Experience.loadBox()
         
         // Add the box anchor to the scene
         arView.scene.anchors.append(boxAnchor)
+        
+        
     }
 }
