@@ -14,6 +14,9 @@ class ViewController: UIViewController {
     
     @IBOutlet var arView: ARView!
     
+    @IBAction func startButton(_ sender: Any) {
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
