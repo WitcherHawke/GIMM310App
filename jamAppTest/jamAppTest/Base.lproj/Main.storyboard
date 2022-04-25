@@ -93,7 +93,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Main-Menu" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pDq-KT-cmm">
-                                <rect key="frame" x="0.0" y="0.0" width="434" height="903"/>
+                                <rect key="frame" x="-10" y="-7" width="434" height="903"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="pDq-KT-cmm" secondAttribute="height" multiplier="61:128" id="gMW-ML-u88"/>
                                     <constraint firstAttribute="width" secondItem="pDq-KT-cmm" secondAttribute="height" multiplier="15:8" id="pE8-zI-dvU"/>
