@@ -18,5 +18,30 @@
     "libraryIdentifier" : "eb2bba2a6600d8b5feb68a1f925d2ff1",
     "format" : "image",
     "displayName" : "play_icon.png"
+  },
+  {
+    "libraryIdentifier" : "392454cdb6ed0b0895b5c25c3e4c0e18",
+    "format" : "arObject",
+    "displayName" : "Scan_15-40-37.arobject"
+  },
+  {
+    "libraryIdentifier" : "ec6d39d430b53e995b79248c0421b82b",
+    "format" : "arObject",
+    "displayName" : "Scan_15-54-27.arobject"
+  },
+  {
+    "libraryIdentifier" : "96761b5e24ca20a64de1b21274a9c6db",
+    "format" : "arObject",
+    "displayName" : "Scan_16-04-09.arobject"
+  },
+  {
+    "libraryIdentifier" : "869eedc60a9dc0dcb6c99e4dd86a700e",
+    "format" : "image",
+    "displayName" : "20220317_163751 1.png"
+  },
+  {
+    "libraryIdentifier" : "3a333cb58b5386933665a3ae0d50a950",
+    "format" : "image",
+    "displayName" : "20220317_163950.jpeg"
   }
 ]
