@@ -13,7 +13,7 @@ import ARKit
 class ViewController: UIViewController {
     
     @IBOutlet var arView: ARView!
-    var testingScene = Experience.TestScene()
+    //var testingScene = Experience.jeannesDesk()
     
     @IBAction func startButton(_ sender: Any) {
         
@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         }
         
         // Load the "Box" scene from the "Experience" Reality File
-        let arAnchor = try! Experience.loadTestScene()
+        let arAnchor = Experience.load()
      
         
         // Add the box anchor to the scene
