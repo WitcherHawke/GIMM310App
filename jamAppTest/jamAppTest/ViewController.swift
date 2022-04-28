@@ -42,14 +42,24 @@ class ViewController: UIViewController {
             
             }
         }
-        
+        struct ARViewContainer: UIViewRepresentable{
+            func updateUIView(_ uiView: ARView, context: Context) {}
+            
+            
+        func makeUIView(context: Context) -> ARView {
+            
+            
+        let arView = ARView(frame: .zero)
         // Load the "Box" scene from the "Experience" Reality File
-        let arAnchor = Experience.load()
-     
-        
+            let anchor = try! Experience.loadClass111AScene()
+            
+            arView.scene.anchors.append(anchor)
+            return arView
+   
+            func updateUIView(_ uiView: ARView, context: Context) {}
+        }
         // Add the box anchor to the scene
-        arView.scene.anchors.append(arAnchor)
         
-        
+        }
     }
 }
