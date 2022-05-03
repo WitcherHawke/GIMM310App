@@ -12,6 +12,7 @@
 		967DC9BF2820915400088898 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 967DC9BE2820915400088898 /* Experience.rcproject */; };
 		967DC9C12820915900088898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 967DC9C02820915900088898 /* Assets.xcassets */; };
 		967DC9C42820915900088898 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 967DC9C32820915900088898 /* Preview Assets.xcassets */; };
+		967DC9DB2820AB6E00088898 /* Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967DC9DA2820AB6E00088898 /* Start.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		967DC9BE2820915400088898 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		967DC9C02820915900088898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		967DC9C32820915900088898 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		967DC9DA2820AB6E00088898 /* Start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Start.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				967DC9BA2820915400088898 /* AppDelegate.swift */,
 				967DC9BC2820915400088898 /* ContentView.swift */,
+				967DC9DA2820AB6E00088898 /* Start.swift */,
 				967DC9BE2820915400088898 /* Experience.rcproject */,
 				967DC9C02820915900088898 /* Assets.xcassets */,
 				967DC9C22820915900088898 /* Preview Content */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				967DC9DB2820AB6E00088898 /* Start.swift in Sources */,
 				967DC9BD2820915400088898 /* ContentView.swift in Sources */,
 				967DC9BB2820915400088898 /* AppDelegate.swift in Sources */,
 				967DC9BF2820915400088898 /* Experience.rcproject in Sources */,
