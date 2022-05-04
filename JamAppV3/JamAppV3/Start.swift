@@ -22,6 +22,9 @@ struct Start: View {
                        
                       
                    }
+                  
+                   
+                   
                }
            }
        }
@@ -35,7 +38,7 @@ struct Start_Previews: PreviewProvider {
             .font(/*@START_MENU_TOKEN@*/.largeTitle/*@END_MENU_TOKEN@*/)
             .textCase(/*@START_MENU_TOKEN@*/.uppercase/*@END_MENU_TOKEN@*/)
             .textContentType(/*@START_MENU_TOKEN@*/.none/*@END_MENU_TOKEN@*/)
-            .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color("AccentColor")/*@END_MENU_TOKEN@*/)
+            
          
             
             
