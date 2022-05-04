@@ -898,8 +898,8 @@
                   0.057736959308385849,
                   0,
                   0.051788307726383209,
-                  0.44209083914756775,
-                  -0.89547401666641235,
+                  0.44209080934524536,
+                  -0.89547395706176758,
                   0,
                   -0.025524461641907692,
                   0.89697015285491943,
@@ -908,6 +908,167 @@
                   0.10215272009372711,
                   0.53865855932235718,
                   0.16555535793304443,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        },
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "name" : "object",
+                "url" : "arObject:392454cdb6ed0b0895b5c25c3e4c0e18\/Scan_15-40-37.arobject"
+              },
+              "behaviors" : [
+
+              ],
+              "gravity" : [
+                0,
+                -9.8000001907348633,
+                0
+              ],
+              "identifier" : "DDC1BDAB-5C8A-4243-AA41-AAEA77879F20",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "29151DA4-EC90-465D-BA20-6F28067843EC" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "bevelRadius",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.050000000000000003
+                          }
+                        ],
+                        [
+                          "diameter",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.16447000000000001
+                          }
+                        ],
+                        [
+                          "height",
+                          {
+                            "typeName" : "Double",
+                            "value" : 0.021769255399703979
+                          }
+                        ],
+                        [
+                          "material",
+                          {
+                            "typeName" : "String",
+                            "value" : "standard"
+                          }
+                        ],
+                        [
+                          "materialColor",
+                          {
+                            "typeName" : "double4",
+                            "value" : [
+                              0.20000000000000001,
+                              0.59999999999999998,
+                              1,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "type",
+                          {
+                            "typeName" : "String",
+                            "value" : "cylinder"
+                          }
+                        ]
+                      ],
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "5F3363A1-4238-4176-855B-9467813ADE23"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        -3.1664971089639948e-08,
+                        0.098826408386230469,
+                        0,
+                        1
+                      ]
+                    }
+                  }
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "JeanneDesk",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.99999457597732544,
+                  -7.7998265624046326e-09,
+                  -0.0032869726419448853,
+                  0,
+                  -0.0013333044480532408,
+                  0.91401606798171997,
+                  -0.40567559003829956,
+                  0,
+                  0.003004138357937336,
+                  0.40567785501480103,
+                  0.91401112079620361,
+                  0,
+                  0.068393133580684662,
+                  0.41179573535919189,
+                  0.5740087628364563,
                   1
                 ],
                 "sceneTransform" : [

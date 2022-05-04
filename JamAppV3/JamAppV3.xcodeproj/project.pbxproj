@@ -23,6 +23,7 @@
 		967DC9C02820915900088898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		967DC9C32820915900088898 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		967DC9DA2820AB6E00088898 /* Start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Start.swift; sourceTree = "<group>"; tabWidth = 12; };
+		9694373428230E550019FDA3 /* JeanneDesk.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = JeanneDesk.rcproject; path = ../JeanneDesk.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 				967DC9BC2820915400088898 /* ContentView.swift */,
 				967DC9DA2820AB6E00088898 /* Start.swift */,
 				967DC9BE2820915400088898 /* Experience.rcproject */,
+				9694373428230E550019FDA3 /* JeanneDesk.rcproject */,
 				967DC9C02820915900088898 /* Assets.xcassets */,
 				967DC9C22820915900088898 /* Preview Content */,
 			);
